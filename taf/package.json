@@ -1,0 +1,21 @@
+{
+  "name": "shopping-cart-taf",
+  "version": "1.0.0",
+  "description": "Playwright TypeScript test automation framework for the Shopping Cart API",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --project=ui-tests",
+    "test:ui:headed": "playwright test --project=ui-tests --headed",
+    "test:api": "playwright test --project=api-tests",
+    "test:report": "playwright show-report playwright-reports/html-report"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^9.0.0",
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^22.0.0",
+    "dotenv": "^16.0.0",
+    "http-status-codes": "^2.3.0",
+    "typescript": "^5.5.0"
+  }
+}
